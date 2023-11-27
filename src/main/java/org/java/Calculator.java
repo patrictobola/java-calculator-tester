@@ -21,4 +21,9 @@ public class Calculator {
 	public float multiply(float num1, float num2) {
 		return num1 * num2;
 	}
+	public static void main(String[] args) {
+		Ticket t1 = new Ticket(100,18);
+		System.out.println(t1.getFinalPrice());
+	}
+	
 }
